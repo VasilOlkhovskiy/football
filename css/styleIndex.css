@@ -1,0 +1,108 @@
+/*HEADER*/
+.header {
+    background: orange;
+    height: 100px;
+    padding: 15px 0;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo {
+    width: 300px;
+    height: 100px;
+    background: url("../img/Shakhtar-donetsk.png") center no-repeat;
+    background-size: contain;
+}
+
+.navigation {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 15px;
+}
+
+.navigation_item {
+    margin-right: 75px;
+    color: #000;
+    border-bottom: 3px solid transparent;
+    transition: all .5s;
+}
+
+.navigation_item:hover {
+    border-bottom: 3px solid #000;
+}
+
+/*TEAM*/
+.team {
+    min-height: 350px;
+    padding: 20px 0;
+    background: orange;
+    display: flex;
+}
+
+.team_container {
+    display: flex;
+    align-items: center;
+}
+
+.team_info {
+    flex: 1 1 40%;
+}
+
+.team_img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_img {
+    width: 500px;
+    height: 300px;
+}
+
+.info_content {
+    margin-bottom: 20px;
+}
+
+.info_btn {
+    text-transform: uppercase;
+    width: 300px;
+}
+
+/*News*/
+.news {
+    background: orange;
+    width: auto;
+    height: 410px;
+}
+
+.news_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.news_item {
+    width: 25%;
+}
+
+.newOne_img {
+    width: 100%;
+    height: auto;
+}
+
+.newTwo_img {
+    width: 100%;
+    height: auto;
+}
+
+.newThree_img {
+    width: 300px;
+    height: 222px;
+}

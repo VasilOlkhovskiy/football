@@ -1,0 +1,65 @@
+/*HEADER*/
+.header {
+    background: orange;
+    height: 100px;
+    padding: 15px 0;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo {
+    width: 300px;
+    height: 100px;
+    background: url("../img/Shakhtar-donetsk.png") center no-repeat;
+    background-size: contain;
+}
+
+.navigation {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 15px;
+}
+
+.navigation_item {
+    margin-right: 75px;
+    color: #000;
+    border-bottom: 3px solid transparent;
+    transition: all .5s;
+}
+
+.navigation_item:hover {
+    border-bottom: 3px solid #000;
+}
+
+/*HISTORY*/
+.history {
+    height: auto;
+    padding: 0 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content_img {
+    width: 110%;
+    height: 110%;
+}
+.content_info {
+    color: orange;
+    height: 100px;
+    display: flex;
+}
+.history_info {
+    color: white;
+}
+.history_if {
+    display: flex;
+}
+.history_img {
+    display: flex;
+}
